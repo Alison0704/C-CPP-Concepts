@@ -1,2 +1,22 @@
-site_name: My Docs
+site_name: C and C++ Concepts
+theme:
+  name: material
+  palette:
+    - scheme: dracula
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: Blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
 
