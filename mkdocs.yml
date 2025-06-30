@@ -10,13 +10,30 @@ theme:
         name: Switch to dark mode
 
     - scheme: slate
-      primary: Blue
+      primary: teal
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-
   font:
     text: Roboto
     code: Roboto Mono
 
+nav:
+  - Home: index.md
+  - Concepts:
+      - Basics: concepts/basics.md
+  - Projects:
+      - Task Scheduler (C): projects/task_scheduler.md
+      - Memory Allocator (C): projects/memory_allocator.md
+      - File System Simulation (C++): projects/fs_simulator.md
+      - Process Manager (C++): projects/process_manager.md
+  - OS Concepts:
+      - Threads vs Processes: os/threads_processes.md
+      - Memory Management: os/memory.md
+      - Scheduling Algorithms: os/scheduling.md
+      - File Systems & I/O: os/filesystems.md
+  - Tools & Setup:
+      - GCC, G++, and Make: tools/compilers.md
+      - Debugging with GDB: tools/debug.md
+  - Resume: resume.md
